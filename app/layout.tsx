@@ -1,17 +1,17 @@
 import type { Metadata } from 'next'
-import { Manrope, JetBrains_Mono } from 'next/font/google'
+import { Bricolage_Grotesque, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
-// Manrope — heavy modern grotesque (matches Ryze Designs visual language).
+// Bricolage Grotesque — distinctive modern grotesque with subtle character.
 // Used for both display (heavy weights 700/800) and body (400/500/600).
-const manrope = Manrope({
+const bricolage = Bricolage_Grotesque({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
   variable: '--font-display',
   display: 'swap',
 })
 
-const manropeBody = Manrope({
+const bricolageBody = Bricolage_Grotesque({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-body',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${manrope.variable} ${manropeBody.variable} ${jetbrains.variable}`}>
+    <html lang="en" className={`${bricolage.variable} ${bricolageBody.variable} ${jetbrains.variable}`}>
       <body>{children}</body>
     </html>
   )

@@ -28,7 +28,7 @@
 html {
   background: var(--bg);
   color: var(--text);
-  font-family: var(--font-body, 'Manrope', system-ui, sans-serif);
+  font-family: var(--font-body, 'Bricolage Grotesque', system-ui, sans-serif);
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
