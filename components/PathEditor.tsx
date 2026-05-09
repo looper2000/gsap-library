@@ -239,7 +239,7 @@ export function PathEditor({ compact = false }: Props = {}) {
   }
 
   const copySvg = async () => {
-    const svgString = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${VB} ${VB}" fill="none" stroke="#ee5a3c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    const svgString = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${VB} ${VB}" fill="none" stroke="#2929ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
   <path d="${d}" />
 </svg>`
     try {
@@ -291,7 +291,7 @@ export function PathEditor({ compact = false }: Props = {}) {
           <path
             ref={pathRef}
             d={d}
-            stroke="#ee5a3c"
+            stroke="#2929ff"
             strokeWidth="2.5"
             fill="none"
             strokeLinecap="round"

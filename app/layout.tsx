@@ -1,19 +1,17 @@
 import type { Metadata } from 'next'
-import { Fraunces, DM_Sans, JetBrains_Mono } from 'next/font/google'
+import { Manrope, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
-// Display: Fraunces — variable serif with SOFT/OPSZ axes, gives the editorial
-// design-studio feel (used for hero titles + emphasis)
-const fraunces = Fraunces({
+// Manrope — heavy modern grotesque (matches Ryze Designs visual language).
+// Used for both display (heavy weights 700/800) and body (400/500/600).
+const manrope = Manrope({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800', '900'],
-  style: ['normal', 'italic'],
+  weight: ['400', '500', '600', '700', '800'],
   variable: '--font-display',
   display: 'swap',
 })
 
-// Body: DM Sans — clean modern grotesque, pairs well with Fraunces
-const dmSans = DM_Sans({
+const manropeBody = Manrope({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-body',
@@ -34,7 +32,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${dmSans.variable} ${jetbrains.variable}`}>
+    <html lang="en" className={`${manrope.variable} ${manropeBody.variable} ${jetbrains.variable}`}>
       <body>{children}</body>
     </html>
   )

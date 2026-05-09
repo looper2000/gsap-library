@@ -26,7 +26,7 @@ const CATEGORY_COLOR: Record<string, string> = {
   glitch:     '#c62828', // brick red
   stagger:    '#558b2f', // olive
   bounce:     '#e65100', // burnt orange
-  advanced:   '#ee5a3c', // coral (matches brand accent)
+  advanced:   '#2929ff', // electric blue (matches brand accent)
 }
 
 interface Props {

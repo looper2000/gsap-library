@@ -42,7 +42,7 @@ const CAT_COLOR: Record<string, string> = {
   scramble: '#0a7e91', typewriter: '#b8861a', clip: '#c2185b',
   blur: '#3949ab', scale: '#2e7d32', wave: '#1976d2',
   rotate: '#d81b60', glitch: '#c62828', stagger: '#558b2f',
-  bounce: '#e65100', advanced: '#ee5a3c',
+  bounce: '#e65100', advanced: '#2929ff',
 }
 
 const DIFF = { beginner: '★ Beginner', intermediate: '★★ Intermediate', advanced: '★★★ Advanced' }
