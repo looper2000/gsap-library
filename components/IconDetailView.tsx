@@ -40,10 +40,11 @@ interface Props {
 
 // ─── Colors ───────────────────────────────────────────────────────────────────
 
+// Light-theme palette — must mirror IconCard's CATEGORY_COLOR
 const CAT_COLOR: Record<string, string> = {
-  arrow: '#aaff3e', ui: '#00d9ff', shape: '#ffd060', media: '#ff3e6e',
-  comm: '#d03eef', misc: '#ff9f3e', files: '#aacfff',
-  social: '#ff64d4', edit: '#b8ff5e', shop: '#ff5e87', weather: '#5ec5ff',
+  arrow: '#3a8a2e', ui: '#0a7e91', shape: '#b8861a', media: '#c2185b',
+  comm: '#7b1fa2', misc: '#cc6622', files: '#3949ab',
+  social: '#d81b60', edit: '#558b2f', shop: '#c8255d', weather: '#1976d2',
 }
 
 const DIFF = { beginner: '★ Beginner', intermediate: '★★ Intermediate', advanced: '★★★ Advanced' }

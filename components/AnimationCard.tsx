@@ -11,21 +11,22 @@ const DIFFICULTY_LABEL: Record<string, string> = {
   advanced: '★★★',
 }
 
+// Light-theme palette — deeper, more saturated values readable on cream bg
 const CATEGORY_COLOR: Record<string, string> = {
-  fade: '#aaff3e',
-  slide: '#ff9f3e',
-  split: '#d03eef',
-  scramble: '#00d9ff',
-  typewriter: '#ffd060',
-  clip: '#ff3e6e',
-  blur: '#aacfff',
-  scale: '#3effa8',
-  wave: '#3e9fff',
-  rotate: '#ff3eaa',
-  glitch: '#ff3e3e',
-  stagger: '#a8ff3e',
-  bounce: '#ff873e',
-  advanced: '#aaff3e',
+  fade:       '#3a8a2e', // deep green
+  slide:      '#cc6622', // terracotta
+  split:      '#7b1fa2', // plum
+  scramble:   '#0a7e91', // teal
+  typewriter: '#b8861a', // mustard
+  clip:       '#c2185b', // crimson
+  blur:       '#3949ab', // indigo
+  scale:      '#2e7d32', // leaf green
+  wave:       '#1976d2', // ocean blue
+  rotate:     '#d81b60', // hot pink
+  glitch:     '#c62828', // brick red
+  stagger:    '#558b2f', // olive
+  bounce:     '#e65100', // burnt orange
+  advanced:   '#ee5a3c', // coral (matches brand accent)
 }
 
 interface Props {

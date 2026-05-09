@@ -36,12 +36,13 @@ interface Props {
 
 // ─── Colors ───────────────────────────────────────────────────────────────────
 
+// Light-theme palette — must mirror AnimationCard's CATEGORY_COLOR
 const CAT_COLOR: Record<string, string> = {
-  fade: '#aaff3e', slide: '#ff9f3e', split: '#d03eef',
-  scramble: '#00d9ff', typewriter: '#ffd060', clip: '#ff3e6e',
-  blur: '#aacfff', scale: '#3effa8', wave: '#3e9fff',
-  rotate: '#ff3eaa', glitch: '#ff3e3e', stagger: '#a8ff3e',
-  bounce: '#ff873e', advanced: '#aaff3e',
+  fade: '#3a8a2e', slide: '#cc6622', split: '#7b1fa2',
+  scramble: '#0a7e91', typewriter: '#b8861a', clip: '#c2185b',
+  blur: '#3949ab', scale: '#2e7d32', wave: '#1976d2',
+  rotate: '#d81b60', glitch: '#c62828', stagger: '#558b2f',
+  bounce: '#e65100', advanced: '#ee5a3c',
 }
 
 const DIFF = { beginner: '★ Beginner', intermediate: '★★ Intermediate', advanced: '★★★ Advanced' }

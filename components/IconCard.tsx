@@ -12,18 +12,19 @@ const DIFFICULTY_LABEL: Record<string, string> = {
   advanced: '★★★',
 }
 
+// Light-theme palette — deeper, more saturated values readable on cream bg
 const CATEGORY_COLOR: Record<string, string> = {
-  arrow: '#aaff3e',
-  ui: '#00d9ff',
-  shape: '#ffd060',
-  media: '#ff3e6e',
-  comm: '#d03eef',
-  misc: '#ff9f3e',
-  files: '#aacfff',
-  social: '#ff64d4',
-  edit: '#b8ff5e',
-  shop: '#ff5e87',
-  weather: '#5ec5ff',
+  arrow:   '#3a8a2e', // deep green
+  ui:      '#0a7e91', // teal
+  shape:   '#b8861a', // mustard
+  media:   '#c2185b', // crimson
+  comm:    '#7b1fa2', // plum
+  misc:    '#cc6622', // terracotta
+  files:   '#3949ab', // indigo
+  social:  '#d81b60', // hot pink
+  edit:    '#558b2f', // leaf green
+  shop:    '#c8255d', // coral red
+  weather: '#1976d2', // ocean blue
 }
 
 interface Props {
